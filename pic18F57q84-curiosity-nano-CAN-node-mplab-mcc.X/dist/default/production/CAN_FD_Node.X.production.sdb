@@ -1,0 +1,1045 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F57Q84 ]
+[d frameptr 1249 ]
+"101 C:\Users\C13199\MPLABXProjects\CAN FD Node.X\mcc_generated_files/can1.c
+[e E23103 . `uc
+FIFO1 1
+]
+"135
+[e E23041 . `uc
+CAN_NON_BRS_MODE 0
+CAN_BRS_MODE 1
+]
+"136
+[e E23045 . `uc
+CAN_FRAME_STD 0
+CAN_FRAME_EXT 1
+]
+"137
+[e E23053 . `uc
+CAN_2_0_FORMAT 0
+CAN_FD_FORMAT 1
+]
+"138
+[e E23049 . `uc
+CAN_FRAME_DATA 0
+CAN_FRAME_RTR 1
+]
+"217
+[e E23078 . `uc
+CAN_TX_FIFO_FULL 0
+CAN_TX_FIFO_AVAILABLE 1
+]
+[e E23100 . `uc
+TXQ 0
+]
+"219
+[e E23057 . `uc
+CAN_TX_MSG_REQUEST_SUCCESS 0
+CAN_TX_MSG_REQUEST_DLC_EXCEED_ERROR 1
+CAN_TX_MSG_REQUEST_BRS_ERROR 2
+CAN_TX_MSG_REQUEST_FIFO_FULL 3
+]
+"328
+[e E23073 . `uc
+CAN_OP_MODE_REQUEST_SUCCESS 0
+CAN_OP_MODE_REQUEST_FAIL 1
+CAN_OP_MODE_SYS_ERROR_OCCURED 2
+]
+[e E23063 . `uc
+CAN_NORMAL_FD_MODE 0
+CAN_DISABLE_MODE 1
+CAN_INTERNAL_LOOPBACK_MODE 2
+CAN_LISTEN_ONLY_MODE 3
+CAN_CONFIGURATION_MODE 4
+CAN_EXTERNAL_LOOPBACK_MODE 5
+CAN_NORMAL_2_0_MODE 6
+CAN_RESTRICTED_OPERATION_MODE 7
+]
+"390
+[e E23148 . `uc
+CAN_RX_MSG_NOT_AVAILABLE 0
+CAN_RX_MSG_AVAILABLE 1
+CAN_RX_MSG_OVERFLOW 8
+]
+"601
+[e E23082 . `uc
+DLC_0 0
+DLC_1 1
+DLC_2 2
+DLC_3 3
+DLC_4 4
+DLC_5 5
+DLC_6 6
+DLC_7 7
+DLC_8 8
+DLC_12 9
+DLC_16 10
+DLC_20 11
+DLC_24 12
+DLC_32 13
+DLC_48 14
+DLC_64 15
+]
+"247 C:\Users\C13199\MPLABXProjects\CAN FD Node.X\mcc_generated_files/tu16a.c
+[e E23240 . `uc
+CAN_NON_BRS_MODE 0
+CAN_BRS_MODE 1
+]
+"248
+[e E23281 . `uc
+DLC_0 0
+DLC_1 1
+DLC_2 2
+DLC_3 3
+DLC_4 4
+DLC_5 5
+DLC_6 6
+DLC_7 7
+DLC_8 8
+DLC_12 9
+DLC_16 10
+DLC_20 11
+DLC_24 12
+DLC_32 13
+DLC_48 14
+DLC_64 15
+]
+"249
+[e E23252 . `uc
+CAN_2_0_FORMAT 0
+CAN_FD_FORMAT 1
+]
+"250
+[e E23248 . `uc
+CAN_FRAME_DATA 0
+CAN_FRAME_RTR 1
+]
+"251
+[e E23244 . `uc
+CAN_FRAME_STD 0
+CAN_FRAME_EXT 1
+]
+"254
+[e E23277 . `uc
+CAN_TX_FIFO_FULL 0
+CAN_TX_FIFO_AVAILABLE 1
+]
+[e E23299 . `uc
+TXQ 0
+]
+"256
+[e E23256 . `uc
+CAN_TX_MSG_REQUEST_SUCCESS 0
+CAN_TX_MSG_REQUEST_DLC_EXCEED_ERROR 1
+CAN_TX_MSG_REQUEST_BRS_ERROR 2
+CAN_TX_MSG_REQUEST_FIFO_FULL 3
+]
+"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\memcpy.c
+[v _memcpy memcpy `(*.39v  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"49 C:\Users\C13199\MPLABXProjects\CAN FD Node.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"111 C:\Users\C13199\MPLABXProjects\CAN FD Node.X\mcc_generated_files/can1.c
+[v _DefaultFIFO1NotEmptyHandler DefaultFIFO1NotEmptyHandler `(v  1 s 1 DefaultFIFO1NotEmptyHandler ]
+"226
+[v _CAN1_RX_FIFO_ResetInfo CAN1_RX_FIFO_ResetInfo `(v  1 e 1 0 ]
+"236
+[v _CAN1_RX_FIFO_Configuration CAN1_RX_FIFO_Configuration `(v  1 s 1 CAN1_RX_FIFO_Configuration ]
+"258
+[v _CAN1_RX_FIFO_FilterMaskConfiguration CAN1_RX_FIFO_FilterMaskConfiguration `(v  1 s 1 CAN1_RX_FIFO_FilterMaskConfiguration ]
+"273
+[v _CAN1_TX_FIFO_Configuration CAN1_TX_FIFO_Configuration `(v  1 s 1 CAN1_TX_FIFO_Configuration ]
+"289
+[v _CAN1_BitRateConfiguration CAN1_BitRateConfiguration `(v  1 s 1 CAN1_BitRateConfiguration ]
+"323
+[v _CAN1_Initialize CAN1_Initialize `(v  1 e 1 0 ]
+"351
+[v _CAN1_OperationModeSet CAN1_OperationModeSet `(E23073  1 e 1 0 ]
+"380
+[v _CAN1_OperationModeGet CAN1_OperationModeGet `(E23063  1 e 1 0 ]
+[v i2_CAN1_OperationModeGet CAN1_OperationModeGet `(E23063  1 e 1 0 ]
+"385
+[v _GetRxFifoDepth GetRxFifoDepth `(uc  1 s 1 GetRxFifoDepth ]
+"390
+[v _GetRxFifoStatus GetRxFifoStatus `(E23148  1 s 1 GetRxFifoStatus ]
+"395
+[v _ReadMessageFromFifo ReadMessageFromFifo `(v  1 s 1 ReadMessageFromFifo ]
+"429
+[v _Receive Receive `(a  1 s 1 Receive ]
+"479
+[v _CAN1_ReceiveFrom CAN1_ReceiveFrom `(a  1 e 1 0 ]
+"496
+[v _CAN1_ReceivedMessageCountGet CAN1_ReceivedMessageCountGet `(uc  1 e 1 0 ]
+"539
+[v _isTxChannel isTxChannel `(a  1 s 1 isTxChannel ]
+"544
+[v _GetTxFifoStatus GetTxFifoStatus `(E23078  1 s 1 GetTxFifoStatus ]
+"549
+[v _WriteMessageToFifo WriteMessageToFifo `(v  1 s 1 WriteMessageToFifo ]
+"590
+[v _ValidateTransmission ValidateTransmission `(E23057  1 s 1 ValidateTransmission ]
+"619
+[v _CAN1_Transmit CAN1_Transmit `(E23057  1 e 1 0 ]
+"641
+[v _CAN1_TransmitFIFOStatusGet CAN1_TransmitFIFOStatusGet `(E23078  1 e 1 0 ]
+"658
+[v _CAN1_IsRxErrorPassive CAN1_IsRxErrorPassive `(a  1 e 1 0 ]
+"673
+[v _CAN1_IsTxErrorPassive CAN1_IsTxErrorPassive `(a  1 e 1 0 ]
+"697
+[v _CAN1_SetFIFO1NotEmptyHandler CAN1_SetFIFO1NotEmptyHandler `(v  1 e 1 0 ]
+"703
+[v _CAN1_RXI_ISR CAN1_RXI_ISR `(v  1 e 1 0 ]
+"52 C:\Users\C13199\MPLABXProjects\CAN FD Node.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"58
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+"50 C:\Users\C13199\MPLABXProjects\CAN FD Node.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"60
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"78
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\C13199\MPLABXProjects\CAN FD Node.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"57 C:\Users\C13199\MPLABXProjects\CAN FD Node.X\mcc_generated_files/tu16a.c
+[v _TU16A_Initialize TU16A_Initialize `(v  1 e 1 0 ]
+"103
+[v _TU16A_ReadCaptureValue TU16A_ReadCaptureValue `(us  1 e 2 0 ]
+"225
+[v _TU16A_ISR TU16A_ISR `(v  1 e 1 0 ]
+"240
+[v _TU16A_SetInterruptHandler TU16A_SetInterruptHandler `(v  1 e 1 0 ]
+"244
+[v _TU16A_DefaultInterruptHandler TU16A_DefaultInterruptHandler `(v  1 e 1 0 ]
+[s S802 . 1 `uc 1 SWIE 1 0 :1:0 
+`uc 1 HLVDIE 1 0 :1:1 
+`uc 1 OSFIE 1 0 :1:2 
+`uc 1 CSWIE 1 0 :1:3 
+`uc 1 TU16AIE 1 0 :1:4 
+`uc 1 CLC1IE 1 0 :1:5 
+`uc 1 CANIE 1 0 :1:6 
+`uc 1 IOCIE 1 0 :1:7 
+]
+"1131 C:/Users/C13199/.mchp_packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f57q84.h
+[u S811 . 1 `S802 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES811  1 e 1 @1182 ]
+"1339
+[v _PMD0 PMD0 `VEuc  1 e 1 @96 ]
+[s S183 . 1 `uc 1 U1RXIE 1 0 :1:0 
+`uc 1 U1TXIE 1 0 :1:1 
+`uc 1 U1EIE 1 0 :1:2 
+`uc 1 U1IE 1 0 :1:3 
+`uc 1 CANRXIE 1 0 :1:4 
+`uc 1 CANTXIE 1 0 :1:5 
+`uc 1 PWM1PIE 1 0 :1:6 
+`uc 1 PWM1IE 1 0 :1:7 
+]
+"1387
+[u S192 . 1 `S183 1 . 1 0 ]
+[v _PIE4bits PIE4bits `VES192  1 e 1 @1186 ]
+"1405
+[v _PMD1 PMD1 `VEuc  1 e 1 @97 ]
+"1467
+[v _PMD2 PMD2 `VEuc  1 e 1 @98 ]
+"1514
+[v _PMD3 PMD3 `VEuc  1 e 1 @99 ]
+"1565
+[v _PMD4 PMD4 `VEuc  1 e 1 @100 ]
+"1621
+[v _PMD5 PMD5 `VEuc  1 e 1 @101 ]
+"1678
+[v _PMD6 PMD6 `VEuc  1 e 1 @102 ]
+"1740
+[v _PMD7 PMD7 `VEuc  1 e 1 @103 ]
+"1802
+[v _PMD8 PMD8 `VEuc  1 e 1 @104 ]
+[s S1008 . 1 `uc 1 SWIF 1 0 :1:0 
+`uc 1 HLVDIF 1 0 :1:1 
+`uc 1 OSFIF 1 0 :1:2 
+`uc 1 CSWIF 1 0 :1:3 
+`uc 1 TU16AIF 1 0 :1:4 
+`uc 1 CLC1IF 1 0 :1:5 
+`uc 1 CANIF 1 0 :1:6 
+`uc 1 IOCIF 1 0 :1:7 
+]
+"2116
+[u S1017 . 1 `S1008 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES1017  1 e 1 @1198 ]
+[s S162 . 1 `uc 1 U1RXIF 1 0 :1:0 
+`uc 1 U1TXIF 1 0 :1:1 
+`uc 1 U1EIF 1 0 :1:2 
+`uc 1 U1IF 1 0 :1:3 
+`uc 1 CANRXIF 1 0 :1:4 
+`uc 1 CANTXIF 1 0 :1:5 
+`uc 1 PWM1PIF 1 0 :1:6 
+`uc 1 PWM1IF 1 0 :1:7 
+]
+"2372
+[u S171 . 1 `S162 1 . 1 0 ]
+[v _PIR4bits PIR4bits `VES171  1 e 1 @1202 ]
+"3084
+[v _LATA LATA `VEuc  1 e 1 @1214 ]
+"3146
+[v _LATB LATB `VEuc  1 e 1 @1215 ]
+"3208
+[v _LATC LATC `VEuc  1 e 1 @1216 ]
+"3270
+[v _LATD LATD `VEuc  1 e 1 @1217 ]
+"3332
+[v _LATE LATE `VEuc  1 e 1 @1218 ]
+"3364
+[v _LATF LATF `VEuc  1 e 1 @1219 ]
+"3426
+[v _TRISA TRISA `VEuc  1 e 1 @1222 ]
+"3488
+[v _TRISB TRISB `VEuc  1 e 1 @1223 ]
+"3550
+[v _TRISC TRISC `VEuc  1 e 1 @1224 ]
+"3612
+[v _TRISD TRISD `VEuc  1 e 1 @1225 ]
+"3674
+[v _TRISE TRISE `VEuc  1 e 1 @1226 ]
+"3706
+[v _TRISF TRISF `VEuc  1 e 1 @1227 ]
+[s S970 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"4136
+[s S978 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S981 . 1 `S970 1 . 1 0 `S978 1 . 1 0 ]
+[v _INTCON0bits INTCON0bits `VES981  1 e 1 @1238 ]
+"5336
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @173 ]
+"5476
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @175 ]
+"5516
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @176 ]
+"5574
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @177 ]
+"5776
+[v _OSCEN OSCEN `VEuc  1 e 1 @179 ]
+"8944
+[v _C1CONL C1CONL `VEuc  1 e 1 @256 ]
+"9014
+[v _C1CONH C1CONH `VEuc  1 e 1 @257 ]
+[s S226 . 1 `uc 1 WAKFIL 1 0 :1:0 
+`uc 1 WFT 1 0 :2:1 
+`uc 1 BUSY 1 0 :1:3 
+`uc 1 BRSDIS 1 0 :1:4 
+`uc 1 SIDL 1 0 :1:5 
+`uc 1 FRZ 1 0 :1:6 
+`uc 1 ON 1 0 :1:7 
+]
+"9035
+[s S234 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 WFT0 1 0 :1:1 
+`uc 1 WFT1 1 0 :1:2 
+]
+[u S238 . 1 `S226 1 . 1 0 `S234 1 . 1 0 ]
+[v _C1CONHbits C1CONHbits `VES238  1 e 1 @257 ]
+"9085
+[v _C1CONU C1CONU `VEuc  1 e 1 @258 ]
+[s S329 . 1 `uc 1 RTXAT 1 0 :1:0 
+`uc 1 ESIGM 1 0 :1:1 
+`uc 1 SERR2LOM 1 0 :1:2 
+`uc 1 STEF 1 0 :1:3 
+`uc 1 TXQEN 1 0 :1:4 
+`uc 1 OPMOD 1 0 :3:5 
+]
+"9106
+[s S336 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 OPMOD0 1 0 :1:5 
+`uc 1 OPMOD1 1 0 :1:6 
+`uc 1 OPMOD2 1 0 :1:7 
+]
+[u S341 . 1 `S329 1 . 1 0 `S336 1 . 1 0 ]
+[v _C1CONUbits C1CONUbits `VES341  1 e 1 @258 ]
+[s S280 . 1 `uc 1 REQOP 1 0 :3:0 
+`uc 1 ABAT 1 0 :1:3 
+`uc 1 TXBWS 1 0 :4:4 
+]
+"9178
+[s S284 . 1 `uc 1 REQOP0 1 0 :1:0 
+`uc 1 REQOP1 1 0 :1:1 
+`uc 1 REQOP2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 TXBWS0 1 0 :1:4 
+`uc 1 TXBWS1 1 0 :1:5 
+`uc 1 TXBWS2 1 0 :1:6 
+`uc 1 TXBWS3 1 0 :1:7 
+]
+[u S293 . 1 `S280 1 . 1 0 `S284 1 . 1 0 ]
+[v _C1CONTbits C1CONTbits `VES293  1 e 1 @259 ]
+"9233
+[v _C1NBTCFGL C1NBTCFGL `VEuc  1 e 1 @260 ]
+"9297
+[v _C1NBTCFGH C1NBTCFGH `VEuc  1 e 1 @261 ]
+"9361
+[v _C1NBTCFGU C1NBTCFGU `VEuc  1 e 1 @262 ]
+"9431
+[v _C1NBTCFGT C1NBTCFGT `VEuc  1 e 1 @263 ]
+"9501
+[v _C1DBTCFGL C1DBTCFGL `VEuc  1 e 1 @264 ]
+"9547
+[v _C1DBTCFGH C1DBTCFGH `VEuc  1 e 1 @265 ]
+"9593
+[v _C1DBTCFGU C1DBTCFGU `VEuc  1 e 1 @266 ]
+"9645
+[v _C1DBTCFGT C1DBTCFGT `VEuc  1 e 1 @267 ]
+"9773
+[v _C1TDCH C1TDCH `VEuc  1 e 1 @269 ]
+"9837
+[v _C1TDCU C1TDCU `VEuc  1 e 1 @270 ]
+[s S310 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TXATIF 1 0 :1:2 
+`uc 1 RXOVIF 1 0 :1:3 
+`uc 1 SERRIF 1 0 :1:4 
+`uc 1 CERRIF 1 0 :1:5 
+`uc 1 WAKIF 1 0 :1:6 
+`uc 1 IVMIF 1 0 :1:7 
+]
+"10467
+[u S318 . 1 `S310 1 . 1 0 ]
+[v _C1INTHbits C1INTHbits `VES318  1 e 1 @285 ]
+[s S147 . 1 `uc 1 TXIE 1 0 :1:0 
+`uc 1 RXIE 1 0 :1:1 
+`uc 1 TBCIE 1 0 :1:2 
+`uc 1 MODIE 1 0 :1:3 
+`uc 1 TEFIE 1 0 :1:4 
+]
+"10516
+[u S153 . 1 `S147 1 . 1 0 ]
+[v _C1INTUbits C1INTUbits `VES153  1 e 1 @286 ]
+[s S402 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TXATIE 1 0 :1:2 
+`uc 1 RXOVIE 1 0 :1:3 
+`uc 1 SERRIE 1 0 :1:4 
+`uc 1 CERRIE 1 0 :1:5 
+`uc 1 WAKIE 1 0 :1:6 
+`uc 1 IVMIE 1 0 :1:7 
+]
+"10562
+[u S410 . 1 `S402 1 . 1 0 ]
+[v _C1INTTbits C1INTTbits `VES410  1 e 1 @287 ]
+[s S385 . 1 `uc 1 EWARN 1 0 :1:0 
+`uc 1 RXWARN 1 0 :1:1 
+`uc 1 TXWARN 1 0 :1:2 
+`uc 1 RXBP 1 0 :1:3 
+`uc 1 TXBP 1 0 :1:4 
+`uc 1 TXBO 1 0 :1:5 
+]
+"12179
+[u S392 . 1 `S385 1 . 1 0 ]
+[v _C1TRECUbits C1TRECUbits `VES392  1 e 1 @310 ]
+"12740
+[v _PLLR PLLR `VEb  1 e 0 @1424 ]
+"13232
+[v _C1FIFOBA C1FIFOBA `VEul  1 e 4 @332 ]
+"13519
+[v _C1TXQCONL C1TXQCONL `VEuc  1 e 1 @336 ]
+"13560
+[v _C1TXQCONH C1TXQCONH `VEuc  1 e 1 @337 ]
+"13592
+[v _C1TXQCONU C1TXQCONU `VEuc  1 e 1 @338 ]
+"13662
+[v _C1TXQCONT C1TXQCONT `VEuc  1 e 1 @339 ]
+"14150
+[v _C1FIFOCON1L C1FIFOCON1L `VEuc  1 e 1 @348 ]
+"14212
+[v _C1FIFOCON1H C1FIFOCON1H `VEuc  1 e 1 @349 ]
+"14244
+[v _C1FIFOCON1U C1FIFOCON1U `VEuc  1 e 1 @350 ]
+"14314
+[v _C1FIFOCON1T C1FIFOCON1T `VEuc  1 e 1 @351 ]
+[s S423 . 1 `uc 1 TFNRFNIF 1 0 :1:0 
+`uc 1 TFHRFHIF 1 0 :1:1 
+`uc 1 TFERFFIF 1 0 :1:2 
+`uc 1 RXOVIF 1 0 :1:3 
+`uc 1 TXATIF 1 0 :1:4 
+`uc 1 TXERR 1 0 :1:5 
+`uc 1 TXLARB 1 0 :1:6 
+`uc 1 TXABT 1 0 :1:7 
+]
+"14414
+[u S432 . 1 `S423 1 . 1 0 ]
+[v _C1FIFOSTA1Lbits C1FIFOSTA1Lbits `VES432  1 e 1 @352 ]
+"16150
+[v _C1FLTCON0L C1FLTCON0L `VEuc  1 e 1 @384 ]
+"16865
+[v _C1FLTOBJ0L C1FLTOBJ0L `VEuc  1 e 1 @396 ]
+"16935
+[v _C1FLTOBJ0H C1FLTOBJ0H `VEuc  1 e 1 @397 ]
+"17011
+[v _C1FLTOBJ0U C1FLTOBJ0U `VEuc  1 e 1 @398 ]
+"17081
+[v _C1FLTOBJ0T C1FLTOBJ0T `VEuc  1 e 1 @399 ]
+"17152
+[v _C1MASK0L C1MASK0L `VEuc  1 e 1 @400 ]
+"17222
+[v _C1MASK0H C1MASK0H `VEuc  1 e 1 @401 ]
+"17298
+[v _C1MASK0U C1MASK0U `VEuc  1 e 1 @402 ]
+"17368
+[v _C1MASK0T C1MASK0T `VEuc  1 e 1 @403 ]
+"24166
+[v _RB0PPS RB0PPS `VEuc  1 e 1 @521 ]
+"25916
+[v _CANRXPPS CANRXPPS `VEuc  1 e 1 @573 ]
+"49335
+[v _TU16ACON0 TU16ACON0 `VEuc  1 e 1 @903 ]
+[s S41 . 1 `uc 1 CIE 1 0 :1:0 
+`uc 1 ZIE 1 0 :1:1 
+`uc 1 PRIE 1 0 :1:2 
+`uc 1 RDSEL 1 0 :1:3 
+`uc 1 OPOL 1 0 :1:4 
+`uc 1 OM 1 0 :1:5 
+`uc 1 CPOL 1 0 :1:6 
+`uc 1 ON 1 0 :1:7 
+]
+"49362
+[s S50 . 1 `uc 1 TU16ACIE 1 0 :1:0 
+`uc 1 TU16AZIE 1 0 :1:1 
+`uc 1 TU16APRIE 1 0 :1:2 
+`uc 1 TU16ARDSEL 1 0 :1:3 
+`uc 1 TU16AOPOL 1 0 :1:4 
+`uc 1 TU16AOM 1 0 :1:5 
+`uc 1 TU16ACPOL 1 0 :1:6 
+`uc 1 TU16AON 1 0 :1:7 
+]
+"49362
+[u S59 . 1 `S41 1 . 1 0 `S50 1 . 1 0 ]
+"49362
+"49362
+[v _TU16ACON0bits TU16ACON0bits `VES59  1 e 1 @903 ]
+"49447
+[v _TU16ACON1 TU16ACON1 `VEuc  1 e 1 @904 ]
+[s S752 . 1 `uc 1 CIF 1 0 :1:0 
+`uc 1 ZIF 1 0 :1:1 
+`uc 1 PRIF 1 0 :1:2 
+`uc 1 CAPT 1 0 :1:3 
+`uc 1 LIMIT 1 0 :1:4 
+`uc 1 CLR 1 0 :1:5 
+`uc 1 OSEN 1 0 :1:6 
+`uc 1 RUN 1 0 :1:7 
+]
+"49474
+[s S761 . 1 `uc 1 TU16ACIF 1 0 :1:0 
+`uc 1 TU16AZIF 1 0 :1:1 
+`uc 1 TU16APRIF 1 0 :1:2 
+`uc 1 TU16ACAPT 1 0 :1:3 
+`uc 1 TU16ALIMIT 1 0 :1:4 
+`uc 1 TU16ACLR 1 0 :1:5 
+`uc 1 TMRAOSEN 1 0 :1:6 
+`uc 1 TU16ARUN 1 0 :1:7 
+]
+"49474
+[u S770 . 1 `S752 1 . 1 0 `S761 1 . 1 0 ]
+"49474
+"49474
+[v _TU16ACON1bits TU16ACON1bits `VES770  1 e 1 @904 ]
+"49559
+[v _TU16AHLT TU16AHLT `VEuc  1 e 1 @905 ]
+"49711
+[v _TU16APS TU16APS `VEuc  1 e 1 @906 ]
+"49851
+[v _TU16ATMRL TU16ATMRL `VEuc  1 e 1 @907 ]
+"50021
+[v _TU16ACRL TU16ACRL `VEuc  1 e 1 @907 ]
+"50191
+[v _TU16ATMRH TU16ATMRH `VEuc  1 e 1 @908 ]
+"50361
+[v _TU16ACRH TU16ACRH `VEuc  1 e 1 @908 ]
+"50538
+[v _TU16APRL TU16APRL `VEuc  1 e 1 @909 ]
+"50708
+[v _TU16APRH TU16APRH `VEuc  1 e 1 @910 ]
+"50878
+[v _TU16ACLK TU16ACLK `VEuc  1 e 1 @911 ]
+"50962
+[v _TU16AERS TU16AERS `VEuc  1 e 1 @912 ]
+"52781
+[v _TUCHAIN TUCHAIN `VEuc  1 e 1 @955 ]
+"59402
+[v _ANSELA ANSELA `VEuc  1 e 1 @1024 ]
+"59464
+[v _WPUA WPUA `VEuc  1 e 1 @1025 ]
+"59526
+[v _ODCONA ODCONA `VEuc  1 e 1 @1026 ]
+"59588
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @1027 ]
+"59650
+[v _INLVLA INLVLA `VEuc  1 e 1 @1028 ]
+"59898
+[v _ANSELB ANSELB `VEuc  1 e 1 @1032 ]
+"59960
+[v _WPUB WPUB `VEuc  1 e 1 @1033 ]
+"60022
+[v _ODCONB ODCONB `VEuc  1 e 1 @1034 ]
+"60084
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @1035 ]
+"60146
+[v _INLVLB INLVLB `VEuc  1 e 1 @1036 ]
+"60394
+[v _ANSELC ANSELC `VEuc  1 e 1 @1040 ]
+"60456
+[v _WPUC WPUC `VEuc  1 e 1 @1041 ]
+"60518
+[v _ODCONC ODCONC `VEuc  1 e 1 @1042 ]
+"60580
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @1043 ]
+"60642
+[v _INLVLC INLVLC `VEuc  1 e 1 @1044 ]
+"60890
+[v _ANSELD ANSELD `VEuc  1 e 1 @1048 ]
+"60952
+[v _WPUD WPUD `VEuc  1 e 1 @1049 ]
+"61014
+[v _ODCOND ODCOND `VEuc  1 e 1 @1050 ]
+"61076
+[v _SLRCOND SLRCOND `VEuc  1 e 1 @1051 ]
+"61138
+[v _INLVLD INLVLD `VEuc  1 e 1 @1052 ]
+"61200
+[v _ANSELE ANSELE `VEuc  1 e 1 @1056 ]
+"61232
+[v _WPUE WPUE `VEuc  1 e 1 @1057 ]
+"61270
+[v _ODCONE ODCONE `VEuc  1 e 1 @1058 ]
+"61302
+[v _SLRCONE SLRCONE `VEuc  1 e 1 @1059 ]
+"61334
+[v _INLVLE INLVLE `VEuc  1 e 1 @1060 ]
+"61435
+[v _ANSELF ANSELF `VEuc  1 e 1 @1064 ]
+"61497
+[v _WPUF WPUF `VEuc  1 e 1 @1065 ]
+"61559
+[v _ODCONF ODCONF `VEuc  1 e 1 @1066 ]
+"61621
+[v _SLRCONF SLRCONF `VEuc  1 e 1 @1067 ]
+"61683
+[v _INLVLF INLVLF `VEuc  1 e 1 @1068 ]
+"99 C:\Users\C13199\MPLABXProjects\CAN FD Node.X\mcc_generated_files/can1.c
+[v _rxMsgData rxMsgData `VE[8]uc  1 s 8 rxMsgData ]
+[s S26 CAN1_RX_FIFO 2 `E23103 1 channel 1 0 `VEuc 1 fifoHead 1 1 ]
+"101
+[v _rxFifos rxFifos `VE[1]S26  1 s 2 rxFifos ]
+"107
+[v _DLC_BYTES DLC_BYTES `C[16]uc  1 s 16 DLC_BYTES ]
+"109
+[v _CAN1_FIFO1NotEmptyHandler CAN1_FIFO1NotEmptyHandler `*.38(v  1 s 3 CAN1_FIFO1NotEmptyHandler ]
+"55 C:\Users\C13199\MPLABXProjects\CAN FD Node.X\mcc_generated_files/tu16a.c
+[v _TU16A_InterruptHandler TU16A_InterruptHandler `*.38(v  1 e 3 0 ]
+"49 C:\Users\C13199\MPLABXProjects\CAN FD Node.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"68
+} 0
+"50 C:\Users\C13199\MPLABXProjects\CAN FD Node.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"58
+} 0
+"57 C:\Users\C13199\MPLABXProjects\CAN FD Node.X\mcc_generated_files/tu16a.c
+[v _TU16A_Initialize TU16A_Initialize `(v  1 e 1 0 ]
+{
+"91
+} 0
+"240
+[v _TU16A_SetInterruptHandler TU16A_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TU16A_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 0 ]
+"242
+} 0
+"78 C:\Users\C13199\MPLABXProjects\CAN FD Node.X\mcc_generated_files/mcc.c
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"98
+} 0
+"55 C:\Users\C13199\MPLABXProjects\CAN FD Node.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"136
+} 0
+"60 C:\Users\C13199\MPLABXProjects\CAN FD Node.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"76
+} 0
+"52 C:\Users\C13199\MPLABXProjects\CAN FD Node.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"56
+} 0
+"323 C:\Users\C13199\MPLABXProjects\CAN FD Node.X\mcc_generated_files/can1.c
+[v _CAN1_Initialize CAN1_Initialize `(v  1 e 1 0 ]
+{
+"349
+} 0
+"273
+[v _CAN1_TX_FIFO_Configuration CAN1_TX_FIFO_Configuration `(v  1 s 1 CAN1_TX_FIFO_Configuration ]
+{
+"287
+} 0
+"226
+[v _CAN1_RX_FIFO_ResetInfo CAN1_RX_FIFO_ResetInfo `(v  1 e 1 0 ]
+{
+"228
+[v CAN1_RX_FIFO_ResetInfo@index index `uc  1 a 1 0 ]
+"234
+} 0
+"258
+[v _CAN1_RX_FIFO_FilterMaskConfiguration CAN1_RX_FIFO_FilterMaskConfiguration `(v  1 s 1 CAN1_RX_FIFO_FilterMaskConfiguration ]
+{
+"271
+} 0
+"236
+[v _CAN1_RX_FIFO_Configuration CAN1_RX_FIFO_Configuration `(v  1 s 1 CAN1_RX_FIFO_Configuration ]
+{
+"256
+} 0
+"697
+[v _CAN1_SetFIFO1NotEmptyHandler CAN1_SetFIFO1NotEmptyHandler `(v  1 e 1 0 ]
+{
+[v CAN1_SetFIFO1NotEmptyHandler@handler handler `*.38(v  1 p 3 0 ]
+"700
+} 0
+"351
+[v _CAN1_OperationModeSet CAN1_OperationModeSet `(E23073  1 e 1 0 ]
+{
+[v CAN1_OperationModeSet@requestMode requestMode `CE23063  1 a 1 wreg ]
+"353
+[v CAN1_OperationModeSet@status status `E23073  1 a 1 1 ]
+"354
+[v CAN1_OperationModeSet@opMode opMode `E23063  1 a 1 0 ]
+"351
+[v CAN1_OperationModeSet@requestMode requestMode `CE23063  1 a 1 wreg ]
+"353
+[v CAN1_OperationModeSet@requestMode requestMode `CE23063  1 a 1 2 ]
+"378
+} 0
+"380
+[v _CAN1_OperationModeGet CAN1_OperationModeGet `(E23063  1 e 1 0 ]
+{
+"383
+} 0
+"289
+[v _CAN1_BitRateConfiguration CAN1_BitRateConfiguration `(v  1 s 1 CAN1_BitRateConfiguration ]
+{
+"320
+} 0
+"58 C:\Users\C13199\MPLABXProjects\CAN FD Node.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+{
+"73
+} 0
+"225 C:\Users\C13199\MPLABXProjects\CAN FD Node.X\mcc_generated_files/tu16a.c
+[v _TU16A_ISR TU16A_ISR `(v  1 e 1 0 ]
+{
+"238
+} 0
+"244
+[v _TU16A_DefaultInterruptHandler TU16A_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"246
+[v TU16A_DefaultInterruptHandler@Transmit_Data Transmit_Data `[8]uc  1 a 8 30 ]
+[s S81 . 1 `uc 1 idType 1 0 :1:0 
+`uc 1 frameType 1 0 :1:1 
+`uc 1 dlc 1 0 :4:2 
+`uc 1 formatType 1 0 :1:6 
+`uc 1 brs 1 0 :1:7 
+]
+"245
+[u S87 . 1 `uc 1 msgfields 1 0 `S81 1 . 1 0 ]
+[s S90 . 7 `ul 1 msgId 4 0 `S87 1 field 1 4 `*.39uc 1 data 2 5 ]
+[v TU16A_DefaultInterruptHandler@Transmission Transmission `S90  1 a 7 38 ]
+[v TU16A_DefaultInterruptHandler@F23391 F23391 `[8]uc  1 s 8 F23391 ]
+"259
+} 0
+"703 C:\Users\C13199\MPLABXProjects\CAN FD Node.X\mcc_generated_files/can1.c
+[v _CAN1_RXI_ISR CAN1_RXI_ISR `(v  1 e 1 0 ]
+{
+"711
+} 0
+"111
+[v _DefaultFIFO1NotEmptyHandler DefaultFIFO1NotEmptyHandler `(v  1 s 1 DefaultFIFO1NotEmptyHandler ]
+{
+"116
+[v DefaultFIFO1NotEmptyHandler@data_Out data_Out `[8]uc  1 a 8 42 ]
+[s S81 . 1 `uc 1 idType 1 0 :1:0 
+`uc 1 frameType 1 0 :1:1 
+`uc 1 dlc 1 0 :4:2 
+`uc 1 formatType 1 0 :1:6 
+`uc 1 brs 1 0 :1:7 
+]
+"115
+[u S87 . 1 `uc 1 msgfields 1 0 `S81 1 . 1 0 ]
+[s S90 . 7 `ul 1 msgId 4 0 `S87 1 field 1 4 `*.39uc 1 data 2 5 ]
+[v DefaultFIFO1NotEmptyHandler@Return_Message Return_Message `S90  1 a 7 58 ]
+"114
+[v DefaultFIFO1NotEmptyHandler@Currently_Processing Currently_Processing `S90  1 a 7 50 ]
+"118
+[v DefaultFIFO1NotEmptyHandler@PID PID `uc  1 a 1 57 ]
+"117
+[v DefaultFIFO1NotEmptyHandler@mode mode `uc  1 a 1 41 ]
+"119
+[v DefaultFIFO1NotEmptyHandler@numBytes numBytes `uc  1 a 1 40 ]
+"224
+} 0
+"641
+[v _CAN1_TransmitFIFOStatusGet CAN1_TransmitFIFOStatusGet `(E23078  1 e 1 0 ]
+{
+[v CAN1_TransmitFIFOStatusGet@fifoChannel fifoChannel `CE23100  1 a 1 wreg ]
+"643
+[v CAN1_TransmitFIFOStatusGet@status status `E23078  1 a 1 2 ]
+"641
+[v CAN1_TransmitFIFOStatusGet@fifoChannel fifoChannel `CE23100  1 a 1 wreg ]
+"643
+[v CAN1_TransmitFIFOStatusGet@fifoChannel fifoChannel `CE23100  1 a 1 3 ]
+"651
+} 0
+"619
+[v _CAN1_Transmit CAN1_Transmit `(E23057  1 e 1 0 ]
+{
+[v CAN1_Transmit@fifoChannel fifoChannel `CE23100  1 a 1 wreg ]
+"628
+[v CAN1_Transmit@txFifoObj txFifoObj `*.39uc  1 a 2 26 ]
+"621
+[v CAN1_Transmit@status status `E23057  1 a 1 25 ]
+"619
+[v CAN1_Transmit@fifoChannel fifoChannel `CE23100  1 a 1 wreg ]
+[s S81 . 1 `uc 1 idType 1 0 :1:0 
+`uc 1 frameType 1 0 :1:1 
+`uc 1 dlc 1 0 :4:2 
+`uc 1 formatType 1 0 :1:6 
+`uc 1 brs 1 0 :1:7 
+]
+[u S87 . 1 `uc 1 msgfields 1 0 `S81 1 . 1 0 ]
+[s S90 . 7 `ul 1 msgId 4 0 `S87 1 field 1 4 `*.39uc 1 data 2 5 ]
+[v CAN1_Transmit@txCanMsg txCanMsg `*.39S90  1 p 2 23 ]
+[v CAN1_Transmit@fifoChannel fifoChannel `CE23100  1 a 1 28 ]
+"639
+} 0
+"539
+[v _isTxChannel isTxChannel `(a  1 s 1 isTxChannel ]
+{
+[v isTxChannel@channel channel `uc  1 a 1 wreg ]
+[v isTxChannel@channel channel `uc  1 a 1 wreg ]
+"541
+[v isTxChannel@channel channel `uc  1 a 1 1 ]
+"542
+} 0
+"549
+[v _WriteMessageToFifo WriteMessageToFifo `(v  1 s 1 WriteMessageToFifo ]
+{
+"551
+[v WriteMessageToFifo@msgId msgId `ul  1 a 4 19 ]
+"552
+[v WriteMessageToFifo@status status `uc  1 a 1 18 ]
+"549
+[v WriteMessageToFifo@txFifoObj txFifoObj `*.39uc  1 p 2 11 ]
+[s S81 . 1 `uc 1 idType 1 0 :1:0 
+`uc 1 frameType 1 0 :1:1 
+`uc 1 dlc 1 0 :4:2 
+`uc 1 formatType 1 0 :1:6 
+`uc 1 brs 1 0 :1:7 
+]
+[u S87 . 1 `uc 1 msgfields 1 0 `S81 1 . 1 0 ]
+[s S90 . 7 `ul 1 msgId 4 0 `S87 1 field 1 4 `*.39uc 1 data 2 5 ]
+[v WriteMessageToFifo@txCanMsg txCanMsg `*.39S90  1 p 2 13 ]
+"588
+} 0
+"590
+[v _ValidateTransmission ValidateTransmission `(E23057  1 s 1 ValidateTransmission ]
+{
+[v ValidateTransmission@validChannel validChannel `uc  1 a 1 wreg ]
+[s S81 . 1 `uc 1 idType 1 0 :1:0 
+`uc 1 frameType 1 0 :1:1 
+`uc 1 dlc 1 0 :4:2 
+`uc 1 formatType 1 0 :1:6 
+`uc 1 brs 1 0 :1:7 
+]
+"593
+[u S87 . 1 `uc 1 msgfields 1 0 `S81 1 . 1 0 ]
+[v ValidateTransmission@field field `S87  1 a 1 11 ]
+"592
+[v ValidateTransmission@txMsgStatus txMsgStatus `E23057  1 a 1 10 ]
+"594
+[v ValidateTransmission@plsize plsize `uc  1 a 1 8 ]
+"590
+[v ValidateTransmission@validChannel validChannel `uc  1 a 1 wreg ]
+[s S90 . 7 `ul 1 msgId 4 0 `S87 1 field 1 4 `*.39uc 1 data 2 5 ]
+[v ValidateTransmission@txCanMsg txCanMsg `*.39S90  1 p 2 1 ]
+"592
+[v ValidateTransmission@validChannel validChannel `uc  1 a 1 9 ]
+"617
+} 0
+"380
+[v i2_CAN1_OperationModeGet CAN1_OperationModeGet `(E23063  1 e 1 0 ]
+{
+"383
+} 0
+"544
+[v _GetTxFifoStatus GetTxFifoStatus `(E23078  1 s 1 GetTxFifoStatus ]
+{
+[v GetTxFifoStatus@validChannel validChannel `uc  1 a 1 wreg ]
+[v GetTxFifoStatus@validChannel validChannel `uc  1 a 1 wreg ]
+"546
+[v GetTxFifoStatus@validChannel validChannel `uc  1 a 1 0 ]
+"547
+} 0
+"496
+[v _CAN1_ReceivedMessageCountGet CAN1_ReceivedMessageCountGet `(uc  1 e 1 0 ]
+{
+"516
+[v CAN1_ReceivedMessageCountGet@fifoHead fifoHead `uc  1 a 1 8 ]
+"515
+[v CAN1_ReceivedMessageCountGet@fifoTail fifoTail `uc  1 a 1 7 ]
+"507
+[v CAN1_ReceivedMessageCountGet@fifoDepth fifoDepth `uc  1 a 1 6 ]
+[v CAN1_ReceivedMessageCountGet@numOfMsg numOfMsg `uc  1 a 1 3 ]
+"502
+[v CAN1_ReceivedMessageCountGet@channel channel `E23103  1 a 1 5 ]
+"503
+[v CAN1_ReceivedMessageCountGet@rxMsgStatus rxMsgStatus `E23148  1 a 1 4 ]
+"498
+[v CAN1_ReceivedMessageCountGet@index index `uc  1 a 1 9 ]
+[v CAN1_ReceivedMessageCountGet@totalMsgObj totalMsgObj `uc  1 a 1 2 ]
+"537
+} 0
+"479
+[v _CAN1_ReceiveFrom CAN1_ReceiveFrom `(a  1 e 1 0 ]
+{
+[v CAN1_ReceiveFrom@channel channel `CE23103  1 a 1 wreg ]
+"481
+[v CAN1_ReceiveFrom@index index `uc  1 a 1 38 ]
+"482
+[v CAN1_ReceiveFrom@status status `a  1 a 1 36 ]
+"479
+[v CAN1_ReceiveFrom@channel channel `CE23103  1 a 1 wreg ]
+[s S81 . 1 `uc 1 idType 1 0 :1:0 
+`uc 1 frameType 1 0 :1:1 
+`uc 1 dlc 1 0 :4:2 
+`uc 1 formatType 1 0 :1:6 
+`uc 1 brs 1 0 :1:7 
+]
+[u S87 . 1 `uc 1 msgfields 1 0 `S81 1 . 1 0 ]
+[s S90 . 7 `ul 1 msgId 4 0 `S87 1 field 1 4 `*.39uc 1 data 2 5 ]
+[v CAN1_ReceiveFrom@rxCanMsg rxCanMsg `*.39S90  1 p 2 33 ]
+"482
+[v CAN1_ReceiveFrom@channel channel `CE23103  1 a 1 37 ]
+"494
+} 0
+"429
+[v _Receive Receive `(a  1 s 1 Receive ]
+{
+[v Receive@index index `uc  1 a 1 wreg ]
+"436
+[v Receive@rxFifoObj rxFifoObj `*.39uc  1 a 2 29 ]
+"432
+[v Receive@rxMsgStatus rxMsgStatus `E23148  1 a 1 31 ]
+"431
+[v Receive@status status `a  1 a 1 28 ]
+"429
+[v Receive@index index `uc  1 a 1 wreg ]
+[v Receive@channel channel `E23103  1 p 1 23 ]
+[s S81 . 1 `uc 1 idType 1 0 :1:0 
+`uc 1 frameType 1 0 :1:1 
+`uc 1 dlc 1 0 :4:2 
+`uc 1 formatType 1 0 :1:6 
+`uc 1 brs 1 0 :1:7 
+]
+[u S87 . 1 `uc 1 msgfields 1 0 `S81 1 . 1 0 ]
+[s S90 . 7 `ul 1 msgId 4 0 `S87 1 field 1 4 `*.39uc 1 data 2 5 ]
+[v Receive@rxCanMsg rxCanMsg `*.39S90  1 p 2 24 ]
+"431
+[v Receive@index index `uc  1 a 1 32 ]
+"459
+} 0
+"395
+[v _ReadMessageFromFifo ReadMessageFromFifo `(v  1 s 1 ReadMessageFromFifo ]
+{
+"397
+[v ReadMessageFromFifo@msgId msgId `ul  1 a 4 18 ]
+"398
+[v ReadMessageFromFifo@status status `uc  1 a 1 22 ]
+"395
+[v ReadMessageFromFifo@rxFifoObj rxFifoObj `*.39uc  1 p 2 11 ]
+[s S81 . 1 `uc 1 idType 1 0 :1:0 
+`uc 1 frameType 1 0 :1:1 
+`uc 1 dlc 1 0 :4:2 
+`uc 1 formatType 1 0 :1:6 
+`uc 1 brs 1 0 :1:7 
+]
+[u S87 . 1 `uc 1 msgfields 1 0 `S81 1 . 1 0 ]
+[s S90 . 7 `ul 1 msgId 4 0 `S87 1 field 1 4 `*.39uc 1 data 2 5 ]
+[v ReadMessageFromFifo@rxCanMsg rxCanMsg `*.39S90  1 p 2 13 ]
+"427
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\memcpy.c
+[v _memcpy memcpy `(*.39v  1 e 2 0 ]
+{
+"8
+[v memcpy@s s `*.39Cuc  1 a 2 8 ]
+"7
+[v memcpy@d d `*.39uc  1 a 2 6 ]
+"9
+[v memcpy@tmp tmp `uc  1 a 1 10 ]
+"4
+[v memcpy@d1 d1 `*.39v  1 p 2 0 ]
+[v memcpy@s1 s1 `*.39Cv  1 p 2 2 ]
+[v memcpy@n n `ui  1 p 2 4 ]
+"18
+} 0
+"390 C:\Users\C13199\MPLABXProjects\CAN FD Node.X\mcc_generated_files/can1.c
+[v _GetRxFifoStatus GetRxFifoStatus `(E23148  1 s 1 GetRxFifoStatus ]
+{
+[v GetRxFifoStatus@validChannel validChannel `uc  1 a 1 wreg ]
+[v GetRxFifoStatus@validChannel validChannel `uc  1 a 1 wreg ]
+"392
+[v GetRxFifoStatus@validChannel validChannel `uc  1 a 1 0 ]
+"393
+} 0
+"385
+[v _GetRxFifoDepth GetRxFifoDepth `(uc  1 s 1 GetRxFifoDepth ]
+{
+[v GetRxFifoDepth@validChannel validChannel `uc  1 a 1 wreg ]
+[v GetRxFifoDepth@validChannel validChannel `uc  1 a 1 wreg ]
+"387
+[v GetRxFifoDepth@validChannel validChannel `uc  1 a 1 1 ]
+"388
+} 0

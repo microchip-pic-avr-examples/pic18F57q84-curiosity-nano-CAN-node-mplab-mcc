@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/default/production\CAN_FD_Node.X.production.hex">
+    <memory name="program">
+      <units>bytes</units>
+      <length>131072</length>
+      <used>4250</used>
+      <free>126822</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>13056</length>
+      <used>96</used>
+      <free>12960</free>
+    </memory>
+  </executable>
+</project>
