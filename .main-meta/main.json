@@ -7,24 +7,24 @@
         "version": "",
         "displayName": "",
         "projectName": "pic18F57q84-curiosity-nano-CAN-node-mplab-mcc",
-        "shortDescription": "",
+        "shortDescription": "This example implements a basic CAN FD Node on the PIC18F-Q84 device using the PIC18F57Q84 Curiosity Nano board, ATA6563 click board, and Curiosity Nano Adapter.",
         "ide": {
             "name": "MPLAB X",
-            "semverRange": ""
+            "semverRange": ">=5.40.0"
         },
         "compiler": [
 			{
 				"name": "XC8",
-				"semverRange": ""
+				"semverRange": "^2.20.0"
 			}
 		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "PIC18F-Q Series Device Support",
+            "semverRange": ">=1.6.129"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": ">=3.95.0"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -32,16 +32,19 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "PIC18F57Q84",
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Nicolas Termer",
         "subcategories": [
+		"Automotive and Transportation"
         ],
         "peripherals": [
+		"CAN FD", "CAN" 
         ],
         "keywords": [
+		"Communications","Automotive and Transportation", "CAN/CAN-FD"
         ],
 		"additionalData": {
 			"longDescription": {
