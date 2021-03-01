@@ -6,8 +6,8 @@
 This example project showcases the setup and use of the new CAN FD module on the PIC18-Q84 family of devices and the new Curiosity Nano board along with the Curiosity Nano Base and CAN FD click to implement a full CAN FD node.  This version of the Curiosity NANO includes a 10Mhz crystal to generate a more accurate clock for the CAN FD module and thus more accurate baud rates. The code periodically transmits CAN frames on a 1 second interval until receiving a specific message (modeled after OBD II), then will respond to certain queries with built-in data.  
 ## Related Documentation
 
-Basic Configuration of the CAN FD Module Technical Brief [ww1.microchip.com/downloads/en/Appnotes/90003266A.pdf)](https://ww1.microchip.com/downloads/en/Appnotes/90003266A.pdf)
-PIC18F27/47/57Q84 Datasheet [ww1.microchip.com/downloads/en/DeviceDoc/PIC18F27-47-57Q84-Data-Sheet-DS40002213C.pdf](https://ww1.microchip.com/downloads/en/DeviceDoc/PIC18F27-47-57Q84-Data-Sheet-DS40002213C.pdf)
+- Basic Configuration of the CAN FD Module Technical Brief [(ww1.microchip.com/downloads/en/Appnotes/90003266A.pdf)](https://ww1.microchip.com/downloads/en/Appnotes/90003266A.pdf)
+- PIC18F27/47/57Q84 Datasheet [(https://www.microchip.com/wwwproducts/en/PIC18F57Q84)](https://www.microchip.com/wwwproducts/en/PIC18F57Q84)
 ## Software Used
 
 - MPLAB® X IDE 5.40 or newer [(microchip.com/mplab/mplab-x-ide)](http://www.microchip.com/mplab/mplab-x-ide)
@@ -28,14 +28,18 @@ PIC18F27/47/57Q84 Datasheet [ww1.microchip.com/downloads/en/DeviceDoc/PIC18F27-4
 ## Setup
 
 The Curiosity Nano Board is used in conjunction with the ATA6563 click board and Curiosity Nano Base for Click boards as the development platform. In addition, some form of CAN FD capable CAN bus analyzer is needed to view the outgoing CAN frames and send incoming CAN frames to the device (the K2L MOCCA FD was used for internal testing of this setup).
-ho
+
 <img src="images/Hardware Setup.jpg" alt="Hardware Setup"/>
+
 The project software was developed in MPLAB X with the help of the MPLAB Code Configurator (MCC) plug-in tool. The MCC tool provides a user-friendly interface that generates software based on the user’s parameters. MCC allows developers who may not be familiar with a new peripheral a way to quickly set up and test a peripheral without having to dive deep into the device datasheet. For this project, the MCC tool was used to generate code for both the CAN FD baud rate, masks, filters, and Transmit/Receive FIFO handling, as well as the Universal Timer module for timing the periodic CAN FD transmissions. The CAN FD Receive interrupt initial setup was also performed using MCC, with the behavior of the interrupt routines being configured in code.
+
 <img src="images/System Module.png" alt="System Module"/>
 
 ### Universal Timer Configuration
-The TU16A module was configured for a 1 second period with an interrupt
+The TU16A module was configured for a 1 second period with an interrupt on period match, which is used to trigger the periodic CAN transmission
+
 <img src="images/UTMR.png" alt="TU16A"/>
+
 ```c
 void TU16A_Initialize(void)
 {

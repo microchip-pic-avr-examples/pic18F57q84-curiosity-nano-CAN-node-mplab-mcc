@@ -210,7 +210,7 @@ static void DefaultFIFO1NotEmptyHandler(void)
     
     else if (PID==0xFF) //go back to heartbeat mode
     {
-        TU16ACON0bits.ON = 1;  //stop the periodic heartbeat, go into response mode
+        TU16ACON0bits.ON = 1;  //stop the response mode, go into periodic heartbeat
         return;
     }
         Return_Message.data=data_Out; 
